@@ -1,48 +1,49 @@
 {
-    "name": "Kelly Bowlin",
-    "profession": "Web Designer",
+    "name": "Joseph Cai",
+    "profession": "Chartered Financial Analyst",
     "links": [
         {
-            "url": "#",
-            "icon": "link",
-            "title": "Personal Portfolio",
-            "description": "All my latest design projects"
+            "url": "https://www.linkedin.com/in/joseph-cai",
+            "icon": "linkedin-box-fill",
+            "title": "LinkedIn",
+            "description": "@joseph-cai"
         },
         {
-            "url": "#",
-            "icon": "youtube-fill",
-            "title": "Youtube Channel",
-            "description": "All my latest design projects"
+            "url": "https://blog.no-arbitrage.com",
+            "icon": "wordpress-line",
+            "title": "Personal site (fill)",
+            "description": "no-arbitrage.com"
+        },
+        
+        {
+            "url": "mailto:mr.joseph.cai@gmail.com?subject='Greeting from new friend'",
+            "icon": "mail-add-fill",
+            "title": "Email",
+            "description": "mr.joseph.cai@gmail.com"
         },
         {
-            "url": "#",
-            "icon": "shopping-bag-line",
-            "title": "Template Store",
-            "description": "Discover templates that suit you"
+            "url": "https://www.instagram.com/jcai.uk/profilecard/?igsh=dGQ4eDYweGxoN3Bt",
+            "icon": "instagram-fill",
+            "title": "Instagram",
+            "description": "@JCAI.UK"
         },
         {
-            "url": "#",
-            "icon": "link",
-            "title": "Design Podcast",
-            "description": "Every Friday a new episode"
+            "url": "https://github.com/no-arbitrage",
+            "icon": "github-line",
+            "title": "GitHub",
+            "description": "@no-arbitrage"
         },
         {
-            "url": "#",
-            "icon": "instagram-line",
-            "title": "Instagram Profile",
-            "description": "Designer lifestyle and more"
+            "url": "https://u.wechat.com/kHvUdpoYf1G_RUAEr_CatT4",
+            "icon": "wechat-2-line",
+            "title": "WeChat",
+            "description": "@goodseph"
         },
         {
-            "url": "#",
-            "icon": "dribbble-line",
-            "title": "Dribbble Shots",
-            "description": "Know more about my work"
-        },
-        {
-            "url": "#",
-            "icon": "link",
-            "title": "Free Resources",
-            "description": "Collection of free resources"
+            "url": "https://discord.gg/SMqSxEqu48",
+            "icon": "discord-line",
+            "title": "Discord",
+            "description": "@no.arb"
         }
     ]
 }
