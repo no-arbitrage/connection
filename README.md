@@ -4,9 +4,6 @@
 git clone https://github.com/alamguardin/Astrolink.git
 ```
 
-
-![Preview](/src/assets/screenshot-app.png)
-
 ## 🚀 How to change the content?
 
 To change the content of the templates, simply locate the ```user.json``` file inside the data folder. You can change the name, profession, and the links you want.
