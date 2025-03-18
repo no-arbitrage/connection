@@ -2,14 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Profile from '../components/Profile.astro';
 import List from '../components/List.astro';
-import Shadow from '../components/Shadow.astro'
+// import Shadow from '../components/Shadow.astro'
 ---
 
 <Layout title="Connect with Joseph Cai">
     <main class="container" id="container">
         <Profile></Profile>
         <List></List>
-        <Shadow></Shadow>
+        <!-- <Shadow></Shadow> -->
     </main>
 </Layout>
 
@@ -17,12 +17,12 @@ import Shadow from '../components/Shadow.astro'
 	.container {
         position: relative;
         margin: auto;
-        padding: 0.3125rem;
+        padding: 0.3rem;
         max-width: 600px;
-        width: 90%;
+        width: %;
         height: 100vh;
         overflow: hidden;
-        scrollbar-width: 8px;
+        scrollbar-width: 0px;
         scrollbar-color: var(--zinc-900) var(--zinc-950)
     }
 </style>
@@ -31,29 +31,30 @@ import Shadow from '../components/Shadow.astro'
     (() => {
         // show or hide shadow, works only if content leaves viewport
         const mainContent = document.getElementById('container');
-        const shadow = document.getElementById('shadow');
-        const shadowButton = document.getElementById('shadow-button');
-
-        shadowButton.addEventListener('click', () => {
-            if (shadow.style.position === 'absolute') {
-                shadow.style.position = 'relative';
-                mainContent.style.overflow = 'auto';
-                shadowButton.children[0].textContent = 'Show Less';
-            }  else {
-                shadow.style.position = 'absolute';
-                mainContent.style.overflow = 'hidden';
-                mainContent.scroll(0,0);
-                shadowButton.children[0].textContent = 'Explore More';
-            }
-        });
+        // const shadow = document.getElementById('shadow');
+        // const shadowButton = document.getElementById('shadow-button');
+                mainContent.style.overflow = 'auto'
+                // mainContent.scroll(0,100);
+        // shadowButton.addEventListener('click', () => {
+        //     if (shadow.style.position === 'absolute') {
+        //         shadow.style.position = 'relative';
+        //         mainContent.style.overflow = 'auto';
+        //         shadowButton.children[0].textContent = 'Show Less';
+        //     }  else {
+        //         shadow.style.position = 'absolute';
+        //         mainContent.style.overflow = 'hidden';
+        //         mainContent.scroll(0,0);
+        //         shadowButton.children[0].textContent = 'Explore More';
+        //     }
+        // });
 
         // Hide the shadow if the content is minimal enough to leave the viewport
         const list = document.getElementById('list');
         const observerList = list.getBoundingClientRect();
 
-        if (observerList.bottom <  window.innerHeight) {
-            shadow.style.display = 'none';
-            mainContent.style.overflow = 'auto';
-        }
+        // if (observerList.bottom <  window.innerHeight) {
+        //     // shadow.style.display = 'none';
+        //     mainContent.style.overflow = 'auto';
+        // }
     })();
 </script>

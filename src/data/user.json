@@ -1,37 +1,54 @@
 {
     "name": "Joseph Cai, CFA",
-    "profession": "M&A and Corporate Development | Data & BI Developer",
+    "profession1": "M&A and Corporate Development",
+    "profession2": "Data & BI Developer",
+    "Location": "London, UK",
     "links": [
         {
             "url": "https://www.linkedin.com/in/joseph-cai",
-            "icon": "linkedin-box-fill",
+            "icon": "linkedin-line",
             "title": "LinkedIn",
             "description": "@joseph-cai"
         },
         {
             "url": "https://www.no-arbitrage.com",
-            "icon": "wordpress-fill",
-            "title": "Personal site",
-            "description": "no-arbitrage.com"
+            "icon": "rss-line",
+            "title": "No Arbitrage",
+            "description": "My blog about finance and data."
         },
         
         {
             "url": "mailto:mr.joseph.cai@gmail.com?subject='Greeting from new friend'",
-            "icon": "mail-add-fill",
+            "icon": "mail-line",
             "title": "Email",
             "description": "mr.joseph.cai@gmail.com"
         },
         {
-            "url": "https://www.instagram.com/jcai.uk/profilecard/?igsh=dGQ4eDYweGxoN3Bt",
-            "icon": "instagram-fill",
-            "title": "Instagram",
-            "description": "@JCAI.UK"
+            "url": "https://github.com/no-arbitrage/connection/blob/main/src/data/jcai_cv.pdf",
+            "icon": "file-pdf-2-line",
+            "title": "Resume",
+            "description": "My Resume (PDF)"
         },
         {
             "url": "https://github.com/no-arbitrage",
             "icon": "github-line",
             "title": "GitHub",
             "description": "@no-arbitrage"
+        }
+    ],
+    "backup-links": [
+
+        {
+            "url": "https://www.instagram.com/jcai.uk/profilecard/?igsh=dGQ4eDYweGxoN3Bt",
+            "icon": "instagram-line",
+            "title": "Instagram",
+            "description": "@JCAI.UK"
+        },
+        {
+            "url": "https://discord.gg/SMqSxEqu48",
+            "icon": "discord-line",
+            "title": "Discord",
+            "description": "@no.arb"
         },
         {
             "url": "https://u.wechat.com/kHvUdpoYf1G_RUAEr_CatT4",
@@ -39,6 +56,7 @@
             "title": "WeChat",
             "description": "@goodseph"
         },
+        
         {
             "url": "https://discord.gg/SMqSxEqu48",
             "icon": "discord-line",

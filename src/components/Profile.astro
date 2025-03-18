@@ -6,22 +6,26 @@ import dataList from '../data/user.json';
 <header class="profile">
     <div class="profile-picture-content">
         <figure class="profile-picture">
-            <img src={UserProfileImage.src} alt="This is me!">
+            <img src={UserProfileImage.src} alt="Joseph Cai!">
         </figure>
     </div>
     <div class="profile-data">
         <h1 class="profile-name">{dataList.name}</h1>
-        <p class="profile-profession">{dataList.profession}</p>
+        <p class="profile-profession"> <br></p>
+        <p class="profile-profession">{dataList.profession1}</p>
+        <p class="profile-profession">{dataList.profession2}</p>
+        <p class="location">💂🏼‍♂ {dataList.Location}</p>
     </div>
 </header>
 
 <style>
     .profile {
-        margin-top: 6rem;
+        margin-top: 8rem;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 0rem;
     }
 
     .profile-picture-content {
@@ -55,6 +59,11 @@ import dataList from '../data/user.json';
     }
 
     .profile-profession {
+        font-size: 0.875rem;
+        color: var(--zinc-400);
+    }
+    .location {
+        margin-top: 0.5rem;
         font-size: 0.875rem;
         color: var(--zinc-400);
     }
