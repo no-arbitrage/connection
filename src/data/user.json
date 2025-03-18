@@ -23,17 +23,18 @@
             "title": "Email",
             "description": "mr.joseph.cai@gmail.com"
         },
-        {
-            "url": "/jcai_cv.pdf",
-            "icon": "file-pdf-2-line",
-            "title": "Resume",
-            "description": "My Resume (PDF)"
-        },
+        
         {
             "url": "https://github.com/no-arbitrage",
             "icon": "github-line",
             "title": "GitHub",
             "description": "@no-arbitrage"
+        },
+        {
+            "url": "/jcai_cv.pdf",
+            "icon": "file-pdf-2-line",
+            "title": "Resume",
+            "description": "My Resume (PDF)"
         }
     ],
     "backup-links": [

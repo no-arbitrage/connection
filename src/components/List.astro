@@ -3,6 +3,7 @@ import Link from "./Link.astro";
 import dataList from '../data/user.json';
 
 const items = dataList.links;
+
 ---
 
 <div class="list" id="list">
@@ -15,11 +16,11 @@ const items = dataList.links;
                     description={item.description} 
                     url={item.url}
                 ></Link>
-            )
-        })
+            )}
+        )
     }
 </div>
-
+<!-- <a href="/jcai_cv.pdf" class="image fit"></a> -->
 <style>
     .list {
         margin-top: 3rem;
